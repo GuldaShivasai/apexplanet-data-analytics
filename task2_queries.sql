@@ -48,3 +48,17 @@ WITH category_sales AS
 SELECT *
 FROM category_sales
 ORDER BY Total_Sales DESC;
+
+-- Query 7: Create View
+CREATE VIEW top_customers AS
+SELECT
+    "Customer Name",
+    SUM(Sales) AS Total_Sales
+FROM cleaned_superstore
+GROUP BY "Customer Name";
+
+-- Query 8: Use View
+SELECT *
+FROM top_customers
+ORDER BY Total_Sales DESC
+LIMIT 10;
