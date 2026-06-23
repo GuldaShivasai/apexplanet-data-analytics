@@ -1,6 +1,6 @@
 # ApexPlanet Data Analytics Internship
 
-This repository contains all tasks completed during the ApexPlanet Data Analytics Internship Program.
+This repository contains tasks completed as part of the ApexPlanet Data Analytics Internship Program.
 
 ## Project Structure
 
@@ -17,25 +17,22 @@ apexplanet-data-analytics/
 └── README.md
 ```
 
-## Task 1: Data Cleaning and Exploratory Data Analysis (EDA)
+## Task 1 - Data Cleaning and EDA
 
-### Objectives
 - Data Cleaning using Pandas
 - Handling Missing Values
 - Removing Duplicates
 - Exploratory Data Analysis
 - Data Visualization
 
-### Deliverables
-- Task1_EDA.ipynb
-- Cleaned Dataset
-- Visualizations
+### Files
+- notebooks/Task1_EDA.ipynb
+- data/cleaned_superstore.csv
 
 ---
 
-## Task 2: SQL for Data Analysis
+## Task 2 - SQL for Data Analysis
 
-### Objectives
 - SQLite Database Creation
 - Data Import and Validation
 - Business SQL Queries
@@ -44,12 +41,12 @@ apexplanet-data-analytics/
 - Views
 - Python and SQLite Integration
 
-### Deliverables
-- Task2_SQL.ipynb
-- task2_queries.sql
-- database_connection.py
-- query_runner.py
-- Query Result Screenshots
+### Files
+- notebooks/Task2_SQL.ipynb
+- scripts/database_connection.py
+- scripts/query_runner.py
+- sql/task2_queries.sql
+- screenshots/
 
 ---
 
@@ -63,16 +60,11 @@ apexplanet-data-analytics/
 - Jupyter Notebook
 - GitHub
 
----
-
 ## Dataset
 
 - Superstore Sales Dataset
 
----
-
 ## Author
 
 Shiva Sai
-
-ApexPlanet Data Analytics Internship - 2026
+ApexPlanet Data Analytics Internship
